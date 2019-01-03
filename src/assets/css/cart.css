@@ -1,0 +1,36 @@
+.cart-title {
+	display: flex !important;
+	align-items: center !important;
+}
+
+.cart-total {
+	font-size: 1.1rem;
+}
+
+.cartDispenser {
+	height: 100px;
+	width: 469.5px;
+	position: absolute;
+	z-index: 1;
+	top: 548px;
+	left: 48px;
+	margin:auto;
+	overflow-x: hidden;
+	border-style: groove;
+  }
+
+  .snackCartContainer {
+	font-family: 'Cutive Mono,sans-serif';
+	color: rgb(4, 4, 10);
+	height: 110px;
+	align-content: start;
+
+	float: left;
+	display: block;
+	grid-template-columns: auto auto auto;
+	grid-gap: 5px;
+	padding: 10px;
+
+  };
+  
+

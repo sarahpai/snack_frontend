@@ -1,0 +1,20 @@
+
+.background {
+	background-image: url(../images/snack_image.jpg);
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+  }
+
+  .btn-danger, .btn-danger:focus {
+	color: #333;
+	text-shadow: none;
+	background-color: #fff;
+	border: .05rem solid #fff;
+}
+
+  .cover-heading {
+	background-color: rgb(78, 245, 240);
+	width: 475px;
+  }
