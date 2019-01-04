@@ -5,6 +5,7 @@
 
 .cart-total {
 	font-size: 1.1rem;
+	text-align: center;
 }
 
 .cartDispenser {
@@ -13,7 +14,7 @@
 	position: absolute;
 	z-index: 1;
 	top: 548px;
-	left: 48px;
+	left: 503px;
 	margin:auto;
 	overflow-x: hidden;
 	border-style: groove;

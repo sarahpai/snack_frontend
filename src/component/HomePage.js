@@ -12,7 +12,7 @@ const HomePage = () => {
 
 				<main role="main" className="inner cover">
 					<h1 className="cover-heading d-flex h-100 p-3 mx-auto flex-column">Fulfill your snack cravings!</h1>
-						<NavLink to="/snacks" className="btn btn-lg btn-danger">Snack Time!</NavLink>
+						<NavLink to="/snacks" className="btn candyShopBtn"></NavLink>
 				</main>
 				<footer className="mastfoot mt-auto">
 					<div className="inner">

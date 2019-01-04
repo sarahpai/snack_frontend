@@ -1,10 +1,10 @@
 
 .backgroundImage {
-	background: url(../images/snackcontainer3.png);
+	background: url(../images/snackmachineOverlay.png);
 	position: relative;
 	background-size: cover;
-	background-size: 576px;
-  width: 576px;
+	background-size: 2040px;
+  /* width: 576px; */
   height: 765px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -32,17 +32,15 @@ h1 {
 
 .snackContainer-border {
   position: absolute;
-  box-shadow: 0 0 20px #fc9904b8;
-  border: 10px solid transparent;
-  
+  box-shadow: 0 0 10px #383838b8;
 }
 
 .image-list {
   column-count: 5;
-  width: 456px;
+  width: 397px;
   position: absolute;
-  left: 57px;
-  top: 7.6vh;
+  left: 542px;
+  top: 9.6vh;
 }
 
 
@@ -50,6 +48,7 @@ h1 {
   text-transform: uppercase;
   box-shadow: 0px 0px -2px -2px #913114b8;
   font-size: 11px;
+  text-align: center;
   font-family: 'Lato';
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, )
@@ -58,7 +57,7 @@ h1 {
 
 .image-list img {
 	box-shadow: 0 5px 24px -3px   #141411b3;
-	width: 79%;
+	width: 100%;
 	float: initial;
 }
 
@@ -71,7 +70,7 @@ h1 {
 }
 
 #add {
-  margin-left: 5px;
+  margin-left: -14px;
 }
 
 .form-control{
@@ -83,9 +82,38 @@ h1 {
 }
 
 .snack-box{
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .snackBtn {
-  background-image: url(../images/snack.png)
+  background-image: url(../images/chocolate.png);
+  height: 38px;
+  width: 30px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.checkoutBtn {
+  background-image: url(../images/food-cart.png);
+  height: 35px;
+  width: 40px;
+  margin-left: 20px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.mx-sm-3 {
+  margin-left: 35rem!important;
+}
+
+.formField {
+  padding-top: 59vh;
 }

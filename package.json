@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "confetti-js": "0.0.14",
     "react": "^16.7.0",
     "react-confetti": "^2.3.0",
     "react-dom": "^16.7.0",

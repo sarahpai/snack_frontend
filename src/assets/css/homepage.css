@@ -6,12 +6,24 @@
 	background-repeat: no-repeat;
 	height: 100vh;
   }
-
+/* 
   .btn-danger, .btn-danger:focus {
 	color: #333;
 	text-shadow: none;
 	background-color: #fff;
 	border: .05rem solid #fff;
+} */
+
+.btn, .candyShopBtn{
+  background-image: url(../images/candy-shop.png);
+	height: 101px;
+	width: 131px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
 
   .cover-heading {
